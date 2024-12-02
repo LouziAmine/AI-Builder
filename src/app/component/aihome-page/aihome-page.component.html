@@ -1,0 +1,13 @@
+<div class="container">
+    <p>AI Builder</p>
+    <form [formGroup]="form" (ngSubmit)="onSubmit()">
+      <!--<label for="description">Description:</label>-->
+      <textarea id="description" formControlName="description" rows="10" placeholder="How can AI help you today?"></textarea>
+      <button type="submit">Generate</button>
+    </form>
+    <div *ngIf="response" class="response">
+      <p>Generated Response:</p>
+      <pre class="response-text">{{ response }}</pre>
+    </div>
+  </div>
+  
