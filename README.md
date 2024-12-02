@@ -1,6 +1,10 @@
-# EduactionAi
+# AI Builder
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.1.1.
+
+# Replace with your API key
+private apiKey = 'YOUR_API_KEY'; // Replace with your API key
+
 
 ## Development server
 
